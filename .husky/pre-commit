@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# Run ESLint
+
+npm run lint
+
+# Check if the code is formatted
+
+npm run format:fix

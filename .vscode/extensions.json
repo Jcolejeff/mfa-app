@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // Linting / Formatting
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "YoavBls.pretty-ts-errors",
+
+    // Git
+    "eamodio.gitlens"
+  ]
+}
