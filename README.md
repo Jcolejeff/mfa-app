@@ -13,7 +13,7 @@
 2. Install project dependencies
 
 ```sh
-    npm install
+    pnpm install
 ```
 
 3. Copy the .env.example to a .env file
@@ -25,5 +25,5 @@
 4. Start the server
 
 ```
-    npm run dev
+    pnpm run dev
 ```
