@@ -71,7 +71,7 @@ const DUMMY_ASSETS = [
 
 const AssetsTable = () => {
   const [currentAsset, setCurrentAsset] = useState({});
-  const { data: assets } = useAssets();
+  // const { data: assets } = useAssets();
   // remove before push
   const router = useRouter();
 
@@ -94,7 +94,7 @@ const AssetsTable = () => {
 
       <TableBody>
         {/* // remove before push */}
-        {assets?.map((asset, idx) => {
+        {DUMMY_ASSETS?.map((asset, idx) => {
           return (
             <TableRow
               onClick={() => router.push(`assets/${asset.id}`)}

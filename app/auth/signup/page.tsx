@@ -157,7 +157,7 @@ const SignUp = () => {
                 onChange={e => setAgreedToTerms(e.target.checked)}
               />
               <label className="ms-2 text-sm font-medium text-gray-400">
-                {'I agree to Facilify’s '}
+                {'I agree to My Food Angels '}
                 <span className="cursor-pointer text-primary-2">Privacy Policy</span>, and{' '}
                 <span className="cursor-pointer text-primary-2">Terms and conditions</span>.
               </label>

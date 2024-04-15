@@ -12,13 +12,13 @@ import { Text } from '@/components/ui/text';
 // maybe unify issue summary and quick actions component by delegating props to a base component
 const Dashboard = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 ">
       <section className="relative w-full space-y-4 rounded-md bg-black bg-[url('/images/dashboard/heroBg.png')] bg-contain bg-right-bottom  bg-no-repeat px-8 py-8 text-white md:bg-[url('/images/dashboard/heroBg.png')]">
         <Text className="text-2xl font-semibold text-white">
-          Start collaborating by Inviting Co-workers to your Organization
+          Start collaborating by Inviting Co-workers to your Organization to know
         </Text>
         <Text className="text-sm font-light text-white">
-          Facilify is meant to be used by Facilities. Invite some of your team members to collaborate with you.
+          My Food Angels is meant to be used by Facilities. Invite some of your team members to collaborate with you.
         </Text>
         <Button variant={'ghost'} className="flex gap-2 rounded-md border border-secondary-1 bg-secondary-1 px-3 py-2 ">
           <Text className="text-sm text-white ">Copy Invite Link</Text>

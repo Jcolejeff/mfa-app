@@ -50,7 +50,7 @@ const CreateOrganization = () => {
 
   const onSubmit = async (values: CreateOrganizationFormFields) => {
     try {
-      const { data } = await $http.post('/organizations', values); // refactor to use react-query mutation
+      // const { data } = await $http.post('/organizations', values); // refactor to use react-query mutation
       // remove before push
 
       toast(`Workspace ${values.name} created successfully`);
@@ -79,7 +79,7 @@ const CreateOrganization = () => {
           <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
             <TextField
               control={form.control}
-              placeholder="admin@facilify.com"
+              placeholder="admin@My Food Angel's.com"
               required
               name="name"
               label="Organization name"

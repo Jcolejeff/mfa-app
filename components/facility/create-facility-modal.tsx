@@ -149,7 +149,7 @@ const CreateFacilityModal = ({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen
                   required
                   name="email"
                   label="Email address"
-                  placeholder="facility1@ncmms.com"
+                  placeholder="facility1@mfa.com"
                 />
                 <TextField control={form.control} required name="phone" label="Phone" placeholder="23480293023" />
               </div>

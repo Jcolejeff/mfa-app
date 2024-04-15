@@ -18,7 +18,7 @@ const Dashboard = () => {
           Start collaborating by Inviting Co-workers to your Facility
         </Text>
         <Text className="text-sm font-light text-white">
-          Facilify is meant to be used by Facilities. Invite some of your team members to collaborate with you.
+          My Food Angelsis meant to be used by Facilities. Invite some of your team members to collaborate with you.
         </Text>
         <Button variant={'ghost'} className="flex gap-2 rounded-md border border-secondary-1 bg-secondary-1 px-3 py-2 ">
           <Text className="text-sm text-white ">Copy Invite Link</Text>

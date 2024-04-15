@@ -16,23 +16,23 @@ import { Text } from '../ui/text';
 const CurrentWorkplaceDropdown = ({ children }: { children?: React.ReactNode }) => {
   const { user } = useUserContext();
   const router = useRouter();
-  const { currentWorkspace, workspaces, switchWorkspace } = useWorkspaceContext();
+  // const { currentWorkspace, workspaces, switchWorkspace } = useWorkspaceContext();
   // const { data: workspasceUsers } = useWorkspaceUsers(activeWorkspace?.id!);
   // remove before push
-  // const currentWorkspace = {
-  //   name: 'Workspace',
-  // };
-  // const workspaces = [
-  //   {
-  //     name: 'Workspace one',
-  //   },
-  //   {
-  //     name: 'Workspace two',
-  //   },
-  //   {
-  //     name: 'Workspace three',
-  //   },
-  // ];
+  const currentWorkspace = {
+    name: 'Workspace',
+  };
+  const workspaces = [
+    {
+      name: 'Workspace one',
+    },
+    {
+      name: 'Workspace two',
+    },
+    {
+      name: 'Workspace three',
+    },
+  ];
 
   return (
     <Dropdown>

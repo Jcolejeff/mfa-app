@@ -72,7 +72,7 @@ const IssuesSummary = () => {
               <CardDescription className="flex items-center gap-2">
                 <Text className="text-xl font-bold">{issueCat.count}</Text>
                 <Text variant={'secondary'} className="text-sm">
-                  issues
+                  issues to
                 </Text>
               </CardDescription>
             </div>

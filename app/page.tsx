@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col gap-2 text-center">
         <div>
           <Text weight={'bold'} size={'2xl'}>
-            FACILIFY!
+            My Food Angel's!
           </Text>
         </div>
 

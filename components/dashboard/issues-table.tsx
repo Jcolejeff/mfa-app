@@ -91,7 +91,7 @@ const IssuesTable = () => {
 
       <TableBody>
         {/* // remove before push */}
-        {assets?.map((asset, idx) => {
+        {DUMMY_ASSETS?.map((asset, idx) => {
           return (
             <TableRow onClick={() => setCurrentAsset(asset)} key={crypto.randomUUID()} className="hover:bg-[#F6F6F9]">
               <TableCell>{idx + 1}</TableCell>

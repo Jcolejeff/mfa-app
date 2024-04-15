@@ -77,80 +77,80 @@ export const SidebarItem = ({ item }: { item: SidebarItem }) => {
 
 const Sidebar = () => {
   const [openCreateFacilityModal, setOpenCreateFacilityModal] = useState(false);
-  const { data } = useFacilities();
+  // const { data } = useFacilities();
   // remove before push
-  // const data = [
-  //   {
-  //     id: 1,
-  //     name: 'Facility 1',
-  //     organization_id: 1,
-  //     description: 'Facility 1 description',
-  //     address_line_1: 'Address line 1',
-  //     city: 'City',
-  //     state: 'State',
-  //     country: 'Country',
-  //     created_by: 1,
-  //     created_at: new Date(),
-  //     updated_at: new Date(),
-  //     is_deleted: false,
-  //     creator: {
-  //       id: 1,
-  //       first_name: 'John',
-  //       last_name: 'Doe',
-  //       email: '',
-  //       unique_id: '1',
-  //       is_active: true,
-  //       date_created: new Date(),
+  const data = [
+    {
+      id: 1,
+      name: 'Facility 1',
+      organization_id: 1,
+      description: 'Facility 1 description',
+      address_line_1: 'Address line 1',
+      city: 'City',
+      state: 'State',
+      country: 'Country',
+      created_by: 1,
+      created_at: new Date(),
+      updated_at: new Date(),
+      is_deleted: false,
+      creator: {
+        id: 1,
+        first_name: 'John',
+        last_name: 'Doe',
+        email: '',
+        unique_id: '1',
+        is_active: true,
+        date_created: new Date(),
 
-  //       last_updated: new Date(),
-  //     },
-  //     assets: [
-  //       {
-  //         id: '1',
-  //         name: 'Asset 1',
-  //       },
-  //       {
-  //         id: '2',
-  //         name: 'Asset 2',
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     name: 'Facility 2',
-  //     organization_id: 1,
-  //     description: 'Facility 1 description',
-  //     address_line_1: 'Address line 1',
-  //     city: 'City',
-  //     state: 'State',
-  //     country: 'Country',
-  //     created_by: 1,
-  //     created_at: new Date(),
-  //     updated_at: new Date(),
-  //     is_deleted: false,
-  //     creator: {
-  //       id: 1,
-  //       first_name: 'John',
-  //       last_name: 'Doe',
-  //       email: '',
-  //       unique_id: '1',
-  //       is_active: true,
-  //       date_created: new Date(),
+        last_updated: new Date(),
+      },
+      assets: [
+        {
+          id: '1',
+          name: 'Asset 1',
+        },
+        {
+          id: '2',
+          name: 'Asset 2',
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: 'Facility 2',
+      organization_id: 1,
+      description: 'Facility 1 description',
+      address_line_1: 'Address line 1',
+      city: 'City',
+      state: 'State',
+      country: 'Country',
+      created_by: 1,
+      created_at: new Date(),
+      updated_at: new Date(),
+      is_deleted: false,
+      creator: {
+        id: 1,
+        first_name: 'John',
+        last_name: 'Doe',
+        email: '',
+        unique_id: '1',
+        is_active: true,
+        date_created: new Date(),
 
-  //       last_updated: new Date(),
-  //     },
-  //     assets: [
-  //       {
-  //         id: '3',
-  //         name: 'Asset 3',
-  //       },
-  //       {
-  //         id: '4',
-  //         name: 'Asset 4',
-  //       },
-  //     ],
-  //   },
-  // ];
+        last_updated: new Date(),
+      },
+      assets: [
+        {
+          id: '3',
+          name: 'Asset 3',
+        },
+        {
+          id: '4',
+          name: 'Asset 4',
+        },
+      ],
+    },
+  ];
 
   return (
     <section className=" py-3">

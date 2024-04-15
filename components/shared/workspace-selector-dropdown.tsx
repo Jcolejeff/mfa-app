@@ -42,28 +42,28 @@ const WorkspaceSelectorDropdown = ({
   onWorkspaceSelect,
   children,
 }: WorkspaceSelectorDropdownProps) => {
-  const { currentWorkspace, workspaces, switchWorkspace } = useWorkspaceContext();
+  // const { currentWorkspace, workspaces, switchWorkspace } = useWorkspaceContext();
   // const { data: workspaceUsers } = useWorkspaceUsers(activeWorkspace?.id!);
   // remove before push
-  // const currentWorkspace = {
-  //   name: 'Workspace',
-  // };
-  // const workspaces = [
-  //   {
-  //     name: 'Workspace one',
-  //   },
-  //   {
-  //     name: 'Workspace two',
-  //   },
-  //   {
-  //     name: 'Workspace three',
-  //   },
-  // ];
-  // const switchWorkspace = (workspace: object) => {
-  //   if (onWorkspaceSelect) {
-  //     onWorkspaceSelect(workspace);
-  //   }
-  // };
+  const currentWorkspace = {
+    name: 'Workspace',
+  };
+  const workspaces = [
+    {
+      name: 'Workspace one',
+    },
+    {
+      name: 'Workspace two',
+    },
+    {
+      name: 'Workspace three',
+    },
+  ];
+  const switchWorkspace = (workspace: object) => {
+    if (onWorkspaceSelect) {
+      onWorkspaceSelect(workspace);
+    }
+  };
 
   return (
     <aside className="flex h-full flex-col items-center gap-4 border-r px-4 py-8">

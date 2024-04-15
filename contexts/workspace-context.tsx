@@ -60,11 +60,11 @@ const WorkspaceProvider = ({ children }: { children: React.ReactNode }) => {
   const { user, isUserLoading } = useUserContext();
   const router = useRouter();
 
-  useEffect(() => {
-    if (!user && isUserLoading === false) {
-      router.push('/auth/signin');
-    }
-  }, [user, router, isUserLoading]);
+  // useEffect(() => {
+  //   if (!user && isUserLoading === false) {
+  //     router.push('/auth/signin');
+  //   }
+  // }, [user, router, isUserLoading]);
   // remove before push
 
   useEffect(() => {
